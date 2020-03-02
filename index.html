@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Modal Nav | Webdevtrick.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<div class="container">
+  <label class="btn btn-open" for="nav">OPEN NAVBOX</label>
+  <input type="checkbox" id="nav" class="nav-opener" />
+  <div class="nav">
+    <div class="nav-header">
+      <div class="nav-title">MENU</div>
+      <label class="btn btn-nav" for="nav">
+        <svg style="width: 25px; height: 25px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19,3H16.3H7.7H5A2,2 0 0,0 3,5V7.7V16.4V19A2,2 0 0,0 5,21H7.7H16.4H19A2,2 0 0,0 21,19V16.3V7.7V5A2,2 0 0,0 19,3M15.6,17L12,13.4L8.4,17L7,15.6L10.6,12L7,8.4L8.4,7L12,10.6L15.6,7L17,8.4L13.4,12L17,15.6L15.6,17Z" />
+        </svg>
+        CLOSE
+      </label>
+    </div>
+    <input type="radio" name="item" id="item1" class="nav-link-opener" checked="checked" />
+    <input type="radio" name="item" id="item2" class="nav-link-opener" />
+    <input type="radio" name="item" id="item3" class="nav-link-opener" />
+    <input type="radio" name="item" id="item4" class="nav-link-opener" />
+    <input type="radio" name="item" id="item5" class="nav-link-opener" />
+    <input type="radio" name="item" id="item6" class="nav-link-opener" />
+    <input type="radio" name="item" id="item7" class="nav-link-opener" />
+    <input type="radio" name="item" id="item8" class="nav-link-opener" />
+    <input type="radio" name="item" id="item9" class="nav-link-opener" />
+    <input type="radio" name="item" id="item10" class="nav-link-opener" />
+    <ul class="nav-links">
+      <li class="nav-link"><label for="item1">Home</label></li>
+      <li class="nav-link"><label for="item2">About</label></li>
+      <li class="nav-link"><label for="item3">Services Details</label></li>
+      <li class="nav-link"><label for="item4">Product Showcase</label></li>
+      <li class="nav-link"><label for="item5">My Account</label></li>
+      <li class="nav-link"><label for="item6">Setting</label></li>
+      <li class="nav-link"><label for="item7">Blog</label></li>
+      <li class="nav-link"><label for="item8">Forum</label></li>
+      <li class="nav-link"><label for="item9">Join Comunity</label></li>
+      <li class="nav-link"><label for="item10">Contact Us</label></li>
+    </ul>
+    <div class="nav-items">
+      <div class="nav-item item-1"></div>
+      <div class="nav-item item-2"></div>
+      <div class="nav-item item-3"></div>
+      <div class="nav-item item-4"></div>
+      <div class="nav-item item-5"></div>
+      <div class="nav-item item-6"></div>
+      <div class="nav-item item-7"></div>
+      <div class="nav-item item-8"></div>
+      <div class="nav-item item-9"></div>
+      <div class="nav-item item-10"></div>
+      <form class="nav-search-box" action="#">
+        <input type="search" name="search" placeholder="Put Query here..." />
+        <button type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
